@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: maria-pod
+spec:
+  containers:
+  - env: 
+    -  name: MYSQL_ROOT_PASSWORD
+       value: password
+  image: mariadb
+  name: mariadb
