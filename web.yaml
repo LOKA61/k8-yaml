@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: pod
+metadata: 
+  name: nginx-pod
+  labels:
+    author: kris
+spec: 
+  containers:
+  - image: nginx
+    name: nginx
+        
