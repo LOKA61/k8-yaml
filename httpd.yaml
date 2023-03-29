@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: httpd-pod
-  labels
+  labels:
     author: kris
 spec:
   containers:
