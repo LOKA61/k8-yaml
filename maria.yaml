@@ -9,3 +9,5 @@ spec:
        value: password
   image: mariadb
   name: mariadb
+
+  
